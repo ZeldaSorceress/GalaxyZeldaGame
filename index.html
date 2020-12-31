@@ -1,39 +1,52 @@
 <!doctype html>
 <html lang="en">
 <head>
-    <title></title>
+    <title>Galaxy's Zelda Game</title>
+    <link rel="stylesheet" href="CSS/navbar.css">
+    <link rel="stylesheet" href="CSS/scrollbar.css">
 </head>
 <style>
     html,body {
         background-color: black;
         margin: 0%;
     }
-    #navbarmain {
-        background-color: #2f9481;
-        padding: 10px;
-        color: black;
-        overflow: hidden;
-        position: fixed;
-        width: 100%;
-        top: 0;
+    #main {
+        padding: 16px;
+        margin-top: 30px;
+        color: white;
     }
-    #navbarmain a {
-        display: block;
-        float: left;
-        text-align: center;
-        padding: 14px 16px;
-        font-size: 17px;
-        text-decoration: none;
-        color: black;
+    .about {
+        color: aqua;
+        text-shadow: 1px 1px 10px aqua;
+        margin: 50px;
+        padding: 5px;
     }
 </style>
 <body>
 <!---Navbar--->
     <div id="navbarmain">
-        <a href="">Refresh</a>
+        <a href="">Home</a>
+        <div id="navbarmain-right">
+            <a href="https://www.youtube.com/channel/UCMBXmXg-IYKbzOlDGqnK9VA/featured" target="_blank">YouTube Channel</a>
+        </div>
     </div>
 <!---End Navbar--->
 <!---Game--->
+    <div id="main">
+        <br>
+        <center>
+            <img src="RES/splash.png">
+        </center>
+        <section class="about">
+            <h1>About The Game</h1>
+            <ul>
+                <li>Works on most resolutions(works best on 1920x1080)</li>
+                <li>Unique Zelda gaming experience</li>
+                <li>Self-Made Zelda game</li>
+                <li>A close reference to Zelda 1</li>
+            </ul>
+        </section>
+    </div>
 <!---End Game--->
 </body>
 </html>
