@@ -6,6 +6,12 @@
     position: fixed;
     width: 100%;
     top: 0;
+    border-style: solid;
+    border-color: #2f9481;
+    box-shadow: 1px 1px 10px #2f9481;
+}
+#navbarmain:hover {
+    opacity: 1;
 }
 #navbarmain a {
     display: block;
