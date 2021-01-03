@@ -1,0 +1,10 @@
+a {
+    text-decoration: none;
+    color: #2f9481;
+    text-shadow: 1px 1px 10px #2f9481;
+    font-size: 18px;
+    display: block;
+}
+a:hover {
+    text-shadow: 1px 1px 10px aqua;
+}
